@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  background: #2b2922;
+}
+
+/* navbar */
+.nav-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.navbar div img {
+  width: 100px;
+}
+
+.navbar div .list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+  /* font-size: 18px; */
+}
+
+.navbar div .list .list-item:nth-child(1) {
+  font-weight: 500;
+}
+
+.navbar div .list .list-item {
+  color: aliceblue;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.button-small {
+  background-color: transparent;
+  border: 1px solid #a08f36;
+  color: #a08f36;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero .hero-heading {
+  font-size: 3rem;
+  line-height: 1.4;
+  text-transform: capitalize;
+  color: #fff;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.hero .hero-para {
+  width: 400px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+/* middle */
+.middle {
+  width: 100%;
+  height: 60vh;
+}
+
+.middle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* bottom */
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 150px;
+  position: absolute;
+  right: 0;
+}
+
+.bottom .bottom-left:first-child {
+  background-color: #39372d;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom .bottom-left:first-child span {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #a08f36;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.bottom .bottom-right:last-child {
+  background-color: #a08f36;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom .bottom-right:last-child span {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
