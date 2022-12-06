@@ -7,6 +7,7 @@
 
 body {
   background: #2b2922;
+  overflow-x: hidden;
 }
 
 /* navbar */
@@ -141,4 +142,46 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 1024px) {
+   .hero{
+    flex-direction: column;
+    gap: 20px;
+   }
+   .hero .hero-heading{
+    width: 600px;
+    font-size: 30px;
+   }
+   .hero .hero-para{
+    width: 600px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .navbar div .list{
+    display: none;
+   }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-container{
+    height: 350px;
+  }
+   .hero .hero-heading{
+    width: 400px;
+    font-size: 30px;
+    padding: 0px 30px;
+   }
+   .hero .hero-para{
+    width: 400px;
+    padding: 0px 30px;
+   }
+   .middle img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   }
 }
