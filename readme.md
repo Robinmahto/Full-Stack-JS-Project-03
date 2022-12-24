@@ -6,8 +6,8 @@
   - CSS Background images, media query, flexbox etc.
   - Learn to making background images responsive.
   - Total time taken 4hr to complete.
-## Desktop  
-### Screenshot
+## ScreenShot 
+### Desktop
 ![assignment 03](Law-Home-Page-desktop.png)
 
 ### Mobile Responsive
